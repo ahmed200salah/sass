@@ -2,10 +2,10 @@ export const Footer = () => {
   return (
     <div className=" bg-black border-t-[1px]  border-gray-500">
       <footer className="bg-black text-white py-5 flex justify-between items-center px-20 max-w-screen-2xl mx-auto max-md:flex-col max-md:gap-2 ">
-        <div className="text-sm footer">
+        <div className="text-sm  truncate">
           © 2024 Your Company, Inc. All rights reserved
         </div>
-        <div className="flex space-x-4 footer">
+        <div className="flex space-x-4">
           <a href="#" className="text-white hover:text-gray-300">
             <svg
               className="w-5 h-5"

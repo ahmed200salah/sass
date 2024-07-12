@@ -9,11 +9,15 @@ export const CallToAction = () => {
   return (
     <div className=" bg-black text-white py-16">
       <div className="flex flex-col justify-center items-center gap-7 relative">
-        <motion.div className="absolute left-72 top-10" drag dragSnapToOrigin>
+        <motion.div
+          className="absolute 2xl:left-44 xl:left-20 hidden left-12 lg:flex top-10"
+          drag
+          dragSnapToOrigin
+        >
           <Image src={helixImage} alt="helixImage" draggable="false" />
         </motion.div>
         <motion.div
-          className="absolute right-72 bottom-16 "
+          className="absolute 2xl:right-44 xl:right-20 right-12 bottom-16  hidden lg:flex"
           drag
           dragSnapToOrigin
         >
